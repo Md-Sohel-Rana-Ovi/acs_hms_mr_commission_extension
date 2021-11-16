@@ -20,12 +20,13 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','acs_hms_mr_commission_extension'],
+    'depends': ['base','acs_hms_medical_representative'],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
         'views/commission_mr.xml',
+        # 'views/commission_rule.xml',
         'views/templates.xml',
     ],
     # only loaded in demonstration mode
