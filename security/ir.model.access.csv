@@ -1,5 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_acs_hms_mr_commission_extension_acs_hms_mr_commission_extension,acs_hms_mr_commission_extension.acs_hms_mr_commission_extension,model_acs_hms_mr_commission_extension_acs_hms_mr_commission_extension,base.group_user,1,1,1,1
-access_commission_role,commission.role,model_commission_role,base.group_user,1,1,1,1
-access_commission_rule,commission.rule,model_commission_rule,base.group_user,1,1,1,1
-access_acs_commission,acs.commission,model_acs_commission,base.group_user,1,1,1,1

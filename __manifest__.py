@@ -26,7 +26,6 @@
     'data': [
         # 'security/ir.model.access.csv',
         'views/commission_mr.xml',
-        # 'views/commission_rule.xml',
         'views/templates.xml',
     ],
     # only loaded in demonstration mode

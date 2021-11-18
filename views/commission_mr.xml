@@ -4,12 +4,12 @@
         <field name="model">medical.representative</field>
         <field name="inherit_id" ref="acs_hms_medical_representative.medical_representative_form"/>
         <field name="arch" type="xml">
-<!--            <div name="button_box" position="inside">-->
-<!--                <button class="oe_stat_button" type="object"  name="commission_action" icon="fa-list" string="Commissions" groups="acs_hms_commission.group_acs_commission_user"/>-->
-<!--            </div>-->
+            <div name="button_box" position="inside">
+                <button class="oe_stat_button" type="object"  name="commission_action" icon="fa-list" string="Commissions"/>
+            </div>
 
             <xpath expr="//notebook" position="inside">
-                <page name="commission" string="Business Commissions" groups="acs_hms_commission.group_acs_commission_user">
+                <page name="commission" string="Business Commissions MR" groups="acs_hms_commission.group_acs_commission_user">
                     <group>
                         <group>
                             <field name="provide_commission"/>
