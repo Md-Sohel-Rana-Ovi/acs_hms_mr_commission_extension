@@ -53,7 +53,7 @@ class AcsCommissionRoleExtension(models.Model):
     role_id = fields.Many2one('commission.role', string='Role')
     user_id = fields.Many2one('res.users', string='User')
     partner_id = fields.Many2one('res.partner', string='Partner')
-    # physician_id = fields.Many2one('res.partner', string='Physician')
+    physician_id = fields.Many2one('res.partner', string='Physician')
     rule_on = fields.Selection([
         ('product_category', 'Product Category'),
         ('product', 'Product'),

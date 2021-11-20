@@ -23,7 +23,7 @@
                     <field name="commission_rule_ids" context="{'default_rule_type': 'user', 'physician_id_id': active_id}" attrs="{'invisible': [('provide_commission','=',False)]}">
                         <tree editable="bottom">
                             <field name="sequence" widget="handle"/>
-<!--                            <field name="physician_id" invisible="1"/>-->
+                            <field name="physician_id" invisible="1"/>
                             <field name="role_id" invisible="1"/>
                             <field name="rule_on"/>
                             <field name="product_category_id" attrs="{'invisible': [('rule_on','!=','product_category')], 'required': [('rule_on','=','product_category')]}"/>
